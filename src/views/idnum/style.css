@@ -1,0 +1,251 @@
+.page {
+    background: rgba(243, 243, 243, 1);
+    padding-bottom:2.266667rem;
+}
+
+.idCardBox {
+    padding: .746667rem .426667rem;
+    background: #fff;
+    margin-bottom: .266667rem;
+}
+
+.idCardTitle {
+    font-size: .64rem;
+    line-height: .88rem;
+    color: rgba(22, 22, 22, 1);
+    margin-bottom: .16rem;
+}
+
+.idCardSubTitle {
+    color: #FF7734FF;
+    line-height: .48rem;
+    margin-bottom: .746667rem;
+}
+
+.idcard {
+    position: relative;
+    width: 4.373333rem;
+    height: 3.52rem;
+    text-align: center;
+    border-radius: 4px;
+    background:rgba(233,237,255,1);
+}
+
+.failed {
+    width: 100%;
+    height: 2.773333rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px 4px 0 0;
+    line-height: .533333rem;
+    color: #fff;
+
+}
+
+.idcard>p {
+    height: .72rem;
+    color: #fff;
+    line-height: .72rem;
+    background:rgba(94,116,226,1);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.idcard>p.active {
+    color: #FF5D5D;
+    background: rgba(255, 232, 232, 1);
+}
+
+.idcard>input {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    z-index: 2;
+}
+
+.idcard>img {
+    max-height: 4rem;
+    height: 2.773333rem;
+    width: 100%;
+    height: 2.8rem;
+    border-radius: 4px;
+}
+
+.itemTitle {
+    padding: .453333rem 5%;
+    background: #fff;
+    line-height: .533333rem;
+    color: rgba(179, 179, 179, 1);
+}
+
+.item {
+    padding: .453333rem 5%;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    line-height: .533333rem;
+}
+
+.item>.label {
+    min-width: 36%;
+    font-size: .426667rem;
+    color: rgba(74, 74, 74, 1);
+}
+
+.item>.value {
+    color: rgba(204, 204, 204, 1);
+    text-align: right;
+}
+.item>.value.active {
+    color: #7B7B7B;
+    
+}
+
+.toFinish {
+    background: #fff;
+    padding: .453333rem 5%;
+    border-bottom: 1px solid #eee;
+    line-height: .533333rem;
+
+}
+
+.toFinish>div {
+    /* background: url(~img/arrow1.png) no-repeat right center, #fff; */
+    background-size: .186667rem;
+    padding-right: 0.42rem;
+}
+
+.toFinish .value{
+    color:#ccc;
+}
+.toFinish .value.active {
+    background: rgba(255, 177, 93, 1);
+    border-radius: .293333rem;
+    font-size: .32rem;
+    width: 1.493333rem;
+    height: .56rem;
+    color: #fff;
+    text-align: center;
+    line-height: .56rem;
+}
+
+.toFinish .label {
+    color: #666;
+}
+
+.finished {
+    width: 9.173333rem;
+    height: 4.426667rem;
+    /* background: url(~img/card_base.png) no-repeat; */
+    background-size: 100%;
+    margin: .533333rem auto;
+    border-radius: .213333rem;
+    padding: .666667rem;
+}
+
+.finished>.headImg {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: .666667rem;
+    border: 2px solid #fff;
+    border-radius: .053333rem;
+}
+
+.userDeatil>p {
+    font-size: .373333rem;
+    color: #FFFFFF;
+    line-height: .693333rem;
+}
+
+.userDeatil>p:first-of-type {
+    font-size: .586667rem;
+    margin-bottom: .166667rem;
+}
+
+.closeIdImg {
+    position: absolute;
+    right: -0.96rem;
+    top: 2rem;
+    transform: translate(0, -50%);
+    width: .64rem;
+}
+
+.noBindItem {
+    margin-bottom: .32rem;
+}
+
+.idCardTop {
+    padding: .853333rem .453333rem;
+    background: #fff;
+}
+
+.idCard {
+    /* background: url(~img/card_base.png) no-repeat; */
+    background-size: 100% 100%;
+    width: 9.146667rem;
+    height: 4.56rem;
+    padding: 2.24rem 0 0 .533333rem;
+}
+
+.idCard>p {
+    font-size: .693333rem;
+    line-height: .72rem;
+    margin-bottom: .213333rem;
+    color: #fff;
+}
+
+.idCard>span {
+    font-size: .426667rem;
+    line-height: .693333rem;
+    color: #fff;
+}
+
+.successBox {
+    width: 7.6rem;
+    height: 7.466667rem;
+    background: rgba(255, 255, 255, 1);
+    border-radius: .213333rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top:.96rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.successBox>.close{
+    width:1.066667rem;
+    height:1.066667rem;
+    background:url(~img/close.png) no-repeat center;
+    background-size:.4rem;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.successBox>img {
+    width: 4.906667rem;
+    margin: 0 auto .8rem;
+}
+
+.successBox>p {
+    font-size: .533333rem;
+    color: rgba(74, 74, 74, 1);
+}
+.save-btn{
+    position: fixed;
+    bottom:0;
+    left:0;
+    background:#fff;
+    padding:.266667rem 0;
+    width:100%;
+    border-top:1px solid #f1f1f1;
+}
+.save-btn>.btn{
+    margin:0 auto;
+    border-radius: .106667rem;
+}
+.btn.active{
+    background:rgba(224,183,118,1);
+}
